@@ -1701,7 +1701,7 @@ pre .javascript .function {
 }
 .sidebar-toggle {
   position: fixed;
-  right: 30px;
+  left: 30px;
   bottom: 45px;
   width: 14px;
   height: 14px;
@@ -1934,7 +1934,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #d6ffd7;
+  background: #953dff;
 }
 .links-of-blogroll {
   font-size: 13px;
