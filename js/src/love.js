@@ -24,50 +24,40 @@ onload = function() {
         $elem.style.top = (y - 20) + "px";
         clearInterval(anim);
         switch (++click_cnt) {
-            case 5:
-                $elem.innerText = "小泽玛利亚";
-                break;
             case 10:
-                $elem.innerText = "苍井空";
-                break;
-            case 15:
-                $elem.innerText = "橘梨纱";
+                $elem.innerText = "OωO";
                 break;
             case 20:
-                $elem.innerText = "大桥未久";
-                break;
-            case 25:
-                $elem.innerText = "雨宫琴音";
+                $elem.innerText = "(๑•́ ∀ •̀๑)";
                 break;
             case 30:
-                $elem.innerText = "柚木提娜";
-                break;
-            case 35:
-                $elem.innerText = "京香";
+                $elem.innerText = "(๑•́ ₃ •̀๑)";
                 break;
             case 40:
-                $elem.innerText = "吉泽明步";
+                $elem.innerText = "(๑•̀_•́๑)";
                 break;
-            case 45:
-                $elem.innerText = "天海翼";
+            case 50:
+                $elem.innerText = "（￣へ￣）";
                 break;
-            case 50: 
-				$elem.innerText = "桃谷绘里香";
+            case 60:
+                $elem.innerText = "(╯°口°)╯(┴—┴";
                 break;
-            case 55: 
-				$elem.innerText = "林由奈";
+            case 70:
+                $elem.innerText = "૮( ᵒ̌皿ᵒ̌ )ა";
                 break;
-            case 60: 
-				$elem.innerText = "水谷心音";
+            case 80:
+                $elem.innerText = "╮(｡>口<｡)╭";
                 break;
-            case 70: 
-				$elem.innerText = "泷泽萝拉";
+            case 90:
+                $elem.innerText = "( ง ᵒ̌皿ᵒ̌)ง⁼³₌₃";
                 break;
-            case 75: 
-				$elem.innerText = "吉泽明步";
-                break;
-            case 80: 
-				$elem.innerText = "波多野结衣";
+            case 100:
+            case 101:
+            case 102:
+            case 103:
+            case 104:
+            case 105:
+                $elem.innerText = "(ꐦ°᷄д°᷅)";
                 break;
             default:
 		// 手动更换下面这行双引号里面的内容 如"😀"
