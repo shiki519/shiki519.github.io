@@ -130,18 +130,15 @@
 
 
 
-<meta name="description" content="console.error(&quot;Error: [hexo-tag-aplayer] Unrecognized tag argument(2): autoplay=false&quot;);">
 <meta name="keywords" content="Testing,Hexo">
 <meta property="og:type" content="article">
-<meta property="og:title" content="muusic test">
-<meta property="og:url" content="http://yoursite.com/2018/06/21/muusic-test/index.html">
+<meta property="og:title" content="music test">
+<meta property="og:url" content="http://yoursite.com/2018/06/21/music-test/index.html">
 <meta property="og:site_name" content="相信未来">
-<meta property="og:description" content="console.error(&quot;Error: [hexo-tag-aplayer] Unrecognized tag argument(2): autoplay=false&quot;);">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-06-21T14:06:44.426Z">
+<meta property="og:updated_time" content="2018-06-21T23:57:40.562Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="muusic test">
-<meta name="twitter:description" content="console.error(&quot;Error: [hexo-tag-aplayer] Unrecognized tag argument(2): autoplay=false&quot;);">
+<meta name="twitter:title" content="music test">
 
 
 
@@ -171,13 +168,17 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2018/06/21/muusic-test/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/06/21/music-test/"/>
 
 
 
 
 
-  <title>muusic test | 相信未来</title>
+<!-- Import APlayer.js -->
+ <% if (page.aplayer === true) { %>
+     <%- partial('_widget/aplayer') %>
+ <% } %>
+  <title>music test | 相信未来</title>
   
 
 
@@ -187,6 +188,9 @@
 
 
 
+<link rel="stylesheet" href="\assets\css\APlayer.min.css" class="aplayer-style-marker">
+<script src="\assets\js\APlayer.min.js" class="aplayer-script-marker"></script>
+<script src="\assets\js\Meting.min.js" class="meting-script-marker"></script>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -304,7 +308,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/06/21/muusic-test/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/06/21/music-test/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Qing Dongdong">
@@ -321,7 +325,7 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">muusic test</h2>
+          <h2 class="post-title" itemprop="name headline">music test</h2>
         
 
         <div class="post-meta">
@@ -349,8 +353,8 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-06-21T22:06:44+08:00">
-                2018-06-21
+              <time title="更新于" itemprop="dateModified" datetime="2018-06-22T07:57:40+08:00">
+                2018-06-22
               </time>
             
           </span>
@@ -385,7 +389,7 @@
 
           
           
-             <span id="/2018/06/21/muusic-test/" class="leancloud_visitors" data-flag-title="muusic test">
+             <span id="/2018/06/21/music-test/" class="leancloud_visitors" data-flag-title="music test">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -436,9 +440,8 @@
 
       
         
-			<script>
-				console.error("Error: [hexo-tag-aplayer] Unrecognized tag argument(2): autoplay=false");
-			</script>
+    <div id="aplayer-XEKxgrGB" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="571339509" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="true" data-mutex="true" data-listmaxheight="340px" data-preload="metadata" data-theme="#FF4081"></div>
+
       
     </div>
     
@@ -458,7 +461,7 @@
   </li>
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
-    <a href="http://yoursite.com/2018/06/21/muusic-test/" title="muusic test">http://yoursite.com/2018/06/21/muusic-test/</a>
+    <a href="http://yoursite.com/2018/06/21/music-test/" title="music test">http://yoursite.com/2018/06/21/music-test/</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>

@@ -173,6 +173,10 @@
 
 
 
+<!-- Import APlayer.js -->
+ <% if (page.aplayer === true) { %>
+     <%- partial('_widget/aplayer') %>
+ <% } %>
   <title>相信未来</title>
   
 
@@ -185,6 +189,7 @@
 
 <link rel="stylesheet" href="\assets\css\APlayer.min.css" class="aplayer-style-marker">
 <script src="\assets\js\APlayer.min.js" class="aplayer-script-marker"></script>
+<script src="\assets\js\Meting.min.js" class="meting-script-marker"></script>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -303,7 +308,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/06/21/muusic-test/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/06/21/music-test/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Qing Dongdong">
@@ -322,7 +327,7 @@
         
           <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2018/06/21/muusic-test/" itemprop="url">muusic test</a></h2>
+                <a class="post-title-link" href="/2018/06/21/music-test/" itemprop="url">music test</a></h2>
         
 
         <div class="post-meta">
@@ -350,8 +355,8 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-06-21T22:06:44+08:00">
-                2018-06-21
+              <time title="更新于" itemprop="dateModified" datetime="2018-06-22T07:57:40+08:00">
+                2018-06-22
               </time>
             
           </span>
@@ -386,7 +391,7 @@
 
           
           
-             <span id="/2018/06/21/muusic-test/" class="leancloud_visitors" data-flag-title="muusic test">
+             <span id="/2018/06/21/music-test/" class="leancloud_visitors" data-flag-title="music test">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -439,9 +444,8 @@
         
           
             
-			<script>
-				console.error("Error: [hexo-tag-aplayer] Unrecognized tag argument(2): autoplay=false");
-			</script>
+    <div id="aplayer-XEKxgrGB" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="571339509" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="true" data-mutex="true" data-listmaxheight="340px" data-preload="metadata" data-theme="#FF4081"></div>
+
           
         
       
@@ -634,12 +638,12 @@
 
       
         
-          <div id="aplayer-tHDIczfu" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;width:500px;">
+          <div id="aplayer-iHBYEkvR" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;width:500px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-tHDIczfu"),
+            element: document.getElementById("aplayer-iHBYEkvR"),
             narrow: false,
             autoplay: false,
             showlrc: false,
