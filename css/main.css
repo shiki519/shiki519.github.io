@@ -1993,7 +1993,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff5034;
+  background: #f42030;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2859,6 +2859,6 @@ embed {
   margin-top: 60px;
   padding: 60px 60px 60px 60px;
   background: #fff;
-  opacity: 0.8;
+  opacity: 1;
   min-height: 500px;
 }
